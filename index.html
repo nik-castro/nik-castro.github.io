@@ -1,14 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Nikolas Castro</title>
-  <style>
-    body { font-family: Georgia, serif; max-width: 42rem; margin: 3rem auto; padding: 0 1rem; line-height: 1.6; color: #222; }
-    h1 { margin-bottom: 0; }
-    a { color: #1a5fb4; }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nikolas Castro</title>
+<style>
+  :root {
+    --bg: #fdfdfc;
+    --text: #1f2328;
+    --muted: #59636e;
+    --accent: #1f4e79;
+    --rule: #d8dee4;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #16181c;
+      --text: #e6e8eb;
+      --muted: #9aa4af;
+      --accent: #7fb2e5;
+      --rule: #343a41;
+    }
+  }
+  html { font-size: 18px; }
+  body {
+    font-family: Charter, "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+    color: var(--text);
+    background: var(--bg);
+    max-width: 44rem;
+    margin: 0 auto;
+    padding: 3.5rem 1.25rem 4rem;
+    line-height: 1.65;
+  }
+  h1 {
+    font-size: 2.3rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    margin: 0 0 0.4rem;
+  }
+  h1 + p { color: var(--muted); margin-bottom: 1.2rem; }
+  h2 {
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+    color: var(--accent);
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 0.35rem;
+    margin: 2.6rem 0 1rem;
+  }
+  p { margin: 0 0 1rem; }
+  a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+  a:hover { border-bottom-color: currentColor; }
+  ul { padding-left: 1.2rem; }
+  li { margin-bottom: 0.7rem; }
+</style>
 </head>
 <body>
   <h1>Nikolas Castro</h1>
